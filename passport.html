@@ -35,9 +35,9 @@ body {
 </div>
 <div class="block2">29.12.2016</div>
 <div class="block3">770-064</div>
-<div class="block4">Иванов</div>
+<div class="block4">Сергунин</div>
 <div class="block5">Иван</div>
-<div class="block6">Иванович</div>
+<div class="block6">Андреевич</div>
 <div class="block7">муж.</div>
 <div class="blocks">01.01.2007 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; муж</div>
 <div class="block9">гор. Москва</div>
@@ -54,16 +54,16 @@ function change_all() {
   const gender = document.querySelector('.block7');
   const city = document.querySelector('.block9');
 
-  if (surname.innerText === 'Ivanov') {
-    surname.innerText = 'Иванов';
+  if (surname.innerText === 'Sergunin') {
+    surname.innerText = 'Сергунин';
     name.innerText = 'Иван';
-    patronymic.innerText = 'Иванович';
+    patronymic.innerText = 'Андреевич';
     gender.innerText = 'муж.';
     city.innerText = 'гор. Москва';
   } else {
-    surname.innerText = 'Ivanov';
+    surname.innerText = 'Sergunin';
     name.innerText = 'Ivan';
-    patronymic.innerText = 'Ivanovich';
+    patronymic.innerText = 'Andreevich';
     gender.innerText = 'male';
     city.innerText = 'Moscow';
   }
@@ -73,4 +73,5 @@ change.addEventListener("click", change_all);
 </script>
 
 </body>
+
 </html>
